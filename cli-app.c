@@ -193,7 +193,7 @@ void versusMode() {
                 printf("Player 2 is Correct!\n\n");
                 player2_score++;
             } else {
-                printf("Player 2 is Incorrect");
+                printf("Player 2 is Incorrect\n\n");
             }
         }
 
@@ -269,7 +269,7 @@ int main() {
                 printf("Invalid choice. Please try again.\n");
         }
 
-    } while (choice != 5);
+    } while (choice != 6);
 
     return 0;
 }
