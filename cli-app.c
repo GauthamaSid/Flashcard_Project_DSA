@@ -176,7 +176,7 @@ void versusMode() {
                 printf("Player 1 is Correct!\n\n");
                 player1_score++;
             } else {
-                printf("Player 1 is Incorrect. The correct answer is: %s\n\n", flashcards[i].answer);
+                printf("Player 1 is Incorrect\n\n");
             }
 
             char user_answer_player2[100];
@@ -193,7 +193,7 @@ void versusMode() {
                 printf("Player 2 is Correct!\n\n");
                 player2_score++;
             } else {
-                printf("Player 2 is Incorrect. The correct answer is: %s\n\n", flashcards[i].answer);
+                printf("Player 2 is Incorrect\n\n");
             }
         }
 
@@ -269,7 +269,7 @@ int main() {
                 printf("Invalid choice. Please try again.\n");
         }
 
-    } while (choice != 5);
+    } while (choice != 6);
 
     return 0;
 }
