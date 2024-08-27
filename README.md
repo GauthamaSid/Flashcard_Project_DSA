@@ -11,5 +11,5 @@ This is a simple flashcard app that allows you to create, view, and quiz yoursel
 
 **Contributing:**
 
-If you would like to contribute to this project, dont.Fork it and do what you want
+If you would like to contribute to this project, dont.
 
